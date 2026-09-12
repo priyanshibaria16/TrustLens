@@ -1,0 +1,85 @@
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Python Cache & Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ==========================================
+# ML Models & Large Artifacts
+# (train locally, don't commit binary blobs)
+# ==========================================
+ml/models/
+ml/data/processed/
+ml/data/raw/ott/
+
+# ==========================================
+# Experiment Outputs
+# ==========================================
+ml/evaluation/
+ml/experiments/
+research/figures/
+research/results/
+
+# ==========================================
+# SQLite Database
+# ==========================================
+*.db
+*.sqlite
+backend/trustlens.db
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# ==========================================
+# Node / Frontend
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
