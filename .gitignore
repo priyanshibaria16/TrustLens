@@ -37,6 +37,8 @@ research/results/
 *.db
 *.sqlite
 backend/trustlens.db
+*.csv
+*.json
 
 # ==========================================
 # Environment Variables / Secrets
