@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+numpy
+scipy
+scikit-learn
+joblib
+spacy
+textblob
+vaderSentiment
