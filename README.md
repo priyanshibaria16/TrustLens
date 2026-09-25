@@ -505,7 +505,8 @@ python ml/scripts/evaluate.py
 > Make sure your virtual environment is activated and you are in the project root directory.
 
 ```powershell
-# Windows
+# Terminal 1 - from the TrustLens project root
+Set-Location .
 .venv\Scripts\activate
 uvicorn backend.app.main:app --reload
 ```
@@ -531,8 +532,8 @@ The backend will start at:
 > Open a **new terminal** (keep the backend running in the first terminal).
 
 ```powershell
-# Windows
-cd frontend
+# Terminal 2 - from the TrustLens project root
+Set-Location .\frontend
 npm install
 npm run dev
 ```
@@ -571,6 +572,10 @@ curl http://localhost:8000/api/health
 ```
 
 Expected response: `{"status": "ok"}`
+
+### Stop the Project
+
+Press `Ctrl+C` in each running terminal to stop the backend and frontend servers.
 
 ---
 
